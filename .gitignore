@@ -1,0 +1,38 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Node / Build
+node_modules/
+build/
+dist/
+.npm/
+.npm-cache/
+
+# Sass
+.sass-cache/
+
+# Editor folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Composer
+vendor/
+
+# Env files
+.env
+.env.*
+.local.env
+
+# WordPress junk (if ever committed in a full install)
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Lockfiles
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
